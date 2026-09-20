@@ -1,117 +1,138 @@
-# 🎬 VORTEX
+# VORTEX
 
-**VORTEX** is a modern online cinema platform designed to provide an engaging and cinematic experience for discovering and watching movies.
+VORTEX is a modern project built with a focus on simplicity, performance, and a clean user experience.
 
-The project is currently under development, with the goal of growing into a complete entertainment and online cinema platform.
+## Table of Contents
 
----
+* Features
+* Project Structure
+* File Description
+* Requirements
+* Installation
+* Environment Setup
+* Usage
+* Admin Panel
+* Roadmap
+* Contributing
+* License
+* Author
 
-## ✨ Features
+## Features
 
-* 🎬 Movie discovery
-* 🔥 Popular Movies section
-* 🆕 New Releases section
-* 🖼️ Movie posters and information
-* ⭐ Movie ratings
-* ❤️ Like system
-* 💬 Comments
-* 👤 User accounts and profiles
-* 🔐 Login and registration
-* 🛠️ Admin Panel
-* 🎨 Modern cinematic design
-* 📱 Responsive interface
+* Modern user interface
+* Fast and responsive experience
+* User management
+* Content management
+* Admin Panel
+* Project settings
+* Secure environment configuration
+* Easy to customize
 
----
-
-## 🛠️ Admin Panel
-
-VORTEX includes an **Admin Panel** for managing the platform's content.
-
-Administrators can:
-
-* Add new movies
-* Edit movie information
-* Manage movie posters
-* Control featured content
-* Manage the content displayed on the platform
-
-The goal is to make content management simple without requiring direct changes to the main website code.
-
----
-
-## 💻 Technologies
-
-VORTEX is built using modern web technologies:
-
-* **HTML** — Page structure
-* **CSS** — Design and styling
-* **JavaScript** — Interactive features
-* **Python / Flask** — Backend and server
-
----
-
-## 📁 Project Files
-
-The main project structure is kept simple:
+## Project Structure
 
 ```text
 VORTEX/
+│
 ├── app.py
-├── index.html
-├── admin.html
-├── style.css
-├── script.js
-└── data/
+├── templates/
+├── static/
+├── .env.example
+├── requirements.txt
+└── README.md
 ```
 
-* `app.py` → Backend and server
-* `index.html` → Main homepage
-* `admin.html` → Admin Panel
-* `style.css` → Website styling
-* `script.js` → Interactive functionality
-* `data/` → Project data
+### File Description
 
----
+* `app.py` — Main application file that runs the VORTEX system.
+* `templates/` — Contains the HTML pages and user interface.
+* `static/` — Contains CSS, JavaScript, images, and other static resources.
+* `.env.example` — Example configuration file for environment variables.
+* `requirements.txt` — Contains the Python dependencies required by the project.
+* `README.md` — Project documentation.
 
-## 🎯 Goal
+## Requirements
 
-The goal of VORTEX is not just to create a simple movie website.
+* Python 3.x
+* pip
+* Required Python packages from `requirements.txt`
 
-The long-term vision is to build a **complete entertainment platform** where users can discover movies, interact with content, share their opinions, and enjoy a modern cinema experience.
+## Installation
 
----
+Clone the repository:
 
-## 🔮 Future Plans
+```bash
+git clone https://github.com/yourusername/vortex.git
+```
 
-Potential features for future versions include:
+Open the project directory:
 
-* 🎥 Advanced streaming system
-* 🔔 Notification system
-* 👥 Following system
-* 💳 Premium features
-* 📢 Advertising system
-* 🔒 Improved content protection
-* 📊 Advanced Admin Panel
-* 📱 Mobile application
+```bash
+cd vortex
+```
 
----
+Install the dependencies:
 
-## 🚧 Project Status
+```bash
+pip install -r requirements.txt
+```
 
-**VORTEX is currently under development.**
+## Environment Setup
 
-The project is continuously evolving, with new features, improvements, and ideas being added over time.
+Create a `.env` file based on `.env.example`:
 
----
+```bash
+cp .env.example .env
+```
 
-## 👨‍💻 Developer
+Then configure the required environment variables.
+
+## Usage
+
+Run the application:
+
+```bash
+python app.py
+```
+
+After starting the application, open the local address shown in the terminal.
+
+## Admin Panel
+
+VORTEX includes an Admin Panel for managing the main parts of the project.
+
+Administrators can manage:
+
+* Users
+* Content
+* Settings
+* Project data
+* Administrative features
+
+## Roadmap
+
+* [ ] Improve the interface
+* [ ] Add more features
+* [ ] Improve performance
+* [ ] Improve security
+* [ ] Expand the Admin Panel
+* [ ] Add more customization
+
+## Contributing
+
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Commit your changes.
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
 
 **Ehsan**
 
-Built with a passion for **Web Development, Programming, AI, and Game Development.**
-
----
-
-## 🌌 Vision
-
-> **VORTEX — Your world of entertainment.**
+Creator and developer of VORTEX.
